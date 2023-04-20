@@ -106,3 +106,4 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 [[ -f ~/.config/zsh/starship.zsh ]] && source ~/.config/zsh/starship.zsh
 eval "$(starship init zsh)"
+bindkey -v
