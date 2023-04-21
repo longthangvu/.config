@@ -32,7 +32,7 @@ plugins=(
 # NeoVim
 - Install [Neovim](https://github.com/neovim/neovim/wiki/Building-Neovim)
 - Install [packer.nvim](https://github.com/wbthomason/packer.nvim) (plugin/package management)
-- Open `packer.lua` in `nvim`
+- Open `.config/nvim/lua/longthangvu/packer.lua` in `nvim`
 - Run `:so` and `:PackerSync`
 - Run `:lua DoTheColors()` to activate color configuration
 
