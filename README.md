@@ -29,6 +29,12 @@ plugins=(
 - Install [Nerd Font](https://www.nerdfonts.com/) 
 - Install [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 - Add `zsh/starship.zsh` & `starship.toml` to appropriate places
+# NeoVim
+- Install [Neovim](https://github.com/neovim/neovim/wiki/Building-Neovim)
+- Install [packer.nvim](https://github.com/wbthomason/packer.nvim) (plugin/package management)
+- Open `packer.lua` in `nvim`
+- Run `:so` and `:PackerSync`
+- Run `:lua DoTheColors()` to activate color configuration
 
 # Vifm
 - Install [Vifm](https://vifm.info/)
