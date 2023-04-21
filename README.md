@@ -1,3 +1,9 @@
+# Automatically install this repo
+Run this [script](https://gist.github.com/vuthanglong/cbe87b70e3df5a32e24354b6bd33eb64)
+```
+curl https://gist.githubusercontent.com/vuthanglong/cbe87b70e3df5a32e24354b6bd33eb64/raw | /bin/bash
+```
+
 # Zsh
 - Install [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 - Install [Oh-My-Zsh](https://ohmyz.sh/)
@@ -22,3 +28,6 @@ plugins=(
 - Install [Nerd Font](https://www.nerdfonts.com/) 
 - Install [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 - Add `zsh/starship.zsh` & `starship.toml` to appropriate places
+
+# Vifm
+- Install [Vifm](https://vifm.info/)
