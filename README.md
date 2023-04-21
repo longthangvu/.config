@@ -35,6 +35,10 @@ plugins=(
 - Open `.config/nvim/lua/longthangvu/packer.lua` in `nvim`
 - Run `:so` and `:PackerSync`
 - Run `:lua DoTheColors()` to activate color configuration
+- Install [ripgrep](https://github.com/BurntSushi/ripgrep)
+## VimTex
+- Install [zathura](https://pwmt.org/projects/zathura/installation/)
+- Install [latexmk](https://mg.readthedocs.io/latexmk.html)
 
 # Vifm
 - Install [Vifm](https://vifm.info/)
