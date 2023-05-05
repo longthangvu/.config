@@ -20,6 +20,19 @@ return require('packer').startup(function(use)
       end
   }
   use {
+      'rmagatti/auto-session',
+      config = function()
+          require("auto-session").setup {
+              log_level = "error",
+              auto_session_suppress_dirs = { "~/", "~/Projects", "~/Downloads", "/"},
+          }
+      end
+  }
+  use {
+      'rmagatti/session-lens',
+      requires = {'rmagatti/auto-session', 'nvim-telescope/telescope.nvim'},
+  }
+  use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
@@ -46,6 +59,14 @@ return require('packer').startup(function(use)
   use {
       'nvim-lualine/lualine.nvim',
       requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
+  use {
+      "iurimateus/luasnip-latex-snippets.nvim",
+      requires = { "L3MON4D3/LuaSnip", "nvim-treesitter/nvim-treesitter" },
+      config = function()
+          require'luasnip-latex-snippets'.setup({ use_treesitter = true })
+      end,
+      ft = { "tex", "markdown" },
   }
   use {
 	  'VonHeikemen/lsp-zero.nvim',

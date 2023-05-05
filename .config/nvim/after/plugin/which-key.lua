@@ -18,6 +18,14 @@ wk.register({
             f = { "Focus Tree" },
             o = { "Open Tree" },
             x = { "Close Tree" },
+        },
+        h = {
+            name = "+session",
+            s = { "Save Current" },
+            r = { "Restore Session" },
+            x = { "Delete Current" },
+            f = { "Search Session" },
+            d = { "Delete Session" }
         }
     },
 })
