@@ -1,6 +1,6 @@
 # Automatically install this repo
 - Define the alias in the current shell scope: `alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
-- Run this [script](https://gist.github.com/vuthanglong/cbe87b70e3df5a32e24354b6bd33eb64)
+- Run this [script](https://gist.github.com/longthangvu/cbe87b70e3df5a32e24354b6bd33eb64)
 ```
 curl https://gist.githubusercontent.com/vuthanglong/cbe87b70e3df5a32e24354b6bd33eb64/raw | /bin/bash
 ```
