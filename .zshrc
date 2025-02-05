@@ -107,3 +107,4 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 [[ -f ~/.config/zsh/starship.zsh ]] && source ~/.config/zsh/starship.zsh
 eval "$(starship init zsh)"
 bindkey -v
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}

@@ -1,7 +1,7 @@
 # Change the default prompt format
 format = """\
-[╭╴](245)$env_var\
-$all[╰─](245)$character"""
+[╭╴](245)$env_var $all\
+[╰─](245)$character"""
 
 # Change the default prompt characters
 [character]
