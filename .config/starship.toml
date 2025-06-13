@@ -56,3 +56,6 @@ modified = " "
 staged = '[++\($count\)](green)'
 renamed = "󰑕 "
 deleted = " "
+
+[python]
+symbol = ' '
