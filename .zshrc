@@ -108,3 +108,4 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 eval "$(starship init zsh)"
 bindkey -v
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
